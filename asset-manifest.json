@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/climbingrehab/static/css/main.54cd1282.css",
+    "main.js": "/climbingrehab/static/js/main.e1686240.js",
+    "static/media/aboutme.png": "/climbingrehab/static/media/aboutme.53b188a328e15a958658.png",
+    "index.html": "/climbingrehab/index.html",
+    "main.54cd1282.css.map": "/climbingrehab/static/css/main.54cd1282.css.map",
+    "main.e1686240.js.map": "/climbingrehab/static/js/main.e1686240.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54cd1282.css",
+    "static/js/main.e1686240.js"
+  ]
+}
