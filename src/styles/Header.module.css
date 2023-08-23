@@ -1,9 +1,10 @@
 .header {
   background: #003366;
   color: #fff;
-  padding: 20px;
+  padding: 2vh;
   position: fixed;
   width: 100%;
+  z-index: 10000;
 }
 
 .navContainer {

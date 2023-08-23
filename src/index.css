@@ -8,6 +8,10 @@ ul {
   list-style: none;
 }
 
+div {
+ position: relative;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -23,6 +27,7 @@ code {
 }
 
 section {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -17,10 +17,17 @@ const ContactUs = () => {
             <Stack gap={2}>
               <div><h1>CONTACT</h1></div>
               <div>24/7 customer service</div>
-              <div>Instagram: @climbing.rehab</div>
-              <div>Email: climbing.rehab@gmail.com</div>
+              <div>
+                <a href="https://www.instagram.com/climbing.rehab" target="_blank" rel="noreferrer">
+                  <i className="bi-instagram fs-4"/>
+                </a>
+                {' climbing.rehab'}
+              </div>
+              <div>
+                Email: <a href="mailto:climbing.rehab@gmail.com" target="_blank" rel="noreferrer">climbing.rehab@gmail.com</a>
+              </div>
               <div>Office: 665 Martinsville Rd Suite 219, Basking Ridge, NJ 07920</div>
-              <div>Office phone number: (908) 484-7600</div>
+              <div>Phone number: (973) 851-4233</div>
             </Stack>
           </Col>
           <Col md="auto">
@@ -28,7 +35,6 @@ const ContactUs = () => {
               title={mapTitle}
               src={mapUrl}
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
               width="100%"
               height="100%"
             />

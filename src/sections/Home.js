@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 import styles from '../styles/Home.module.css';
-
+import {homePromises} from '../constants/home';
 const Home = () => {
   const homeRef = useNav("Home")
 
@@ -13,15 +13,13 @@ const Home = () => {
       <Container className={styles.containerhome}>
         <Col className={styles.colhome}>
           <Row className={styles.rowhomename}>
-              Dr. Miguel Zevallos
+              Climbing.Rehab
           </Row>
-          <Row className={styles.rowspace}></Row>
-          <Row>
+          <Row className={styles.rowlist}>
             <Stack gap={2}>
-              <li><strong>MAKE</strong> your goals my priority</li>
-              <li><strong>EDUCATE</strong> you on your injury and how to prevent it from happening again.</li>
-              <li><strong>OFFER</strong> a 100% personalized and flexible treatment program for your specific needs.</li>
-              <li><strong>REDUCE</strong> the medical f luff: if one session is all you need then that is a compliment to my work</li>
+              {homePromises.map(promise =>
+                <li key={promise.title}><strong>{promise.title}</strong>{promise.text}</li>
+              )}
             </Stack>
           </Row>
         </Col>

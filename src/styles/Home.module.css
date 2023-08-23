@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   height: 80vh;
+  padding: 5vh;
 }
 .colhome {
  height: 80vh;
@@ -10,11 +11,17 @@
 
 .rowhomename {
   /* align-self: center; */
-  font-size: 70px;
-  width: 80vh
+  font-size: 5vw;
+  width: 80vw;
+  height: 40vh;
 }
 
+.rowlist {
+  /* align-self: center; */
+  width: 80vw;
+  height: 20vh;
+}
 
 .rowspace {
-  height: 40vh
+  height: 40vh;
 }

@@ -6,6 +6,7 @@ import Services from './sections/Services';
 import Reviews from './sections/Reviews';
 import ContactUs from './sections/ContactUs';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
