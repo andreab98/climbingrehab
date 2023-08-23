@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/climbingrehab/static/css/main.54cd1282.css",
-    "main.js": "/climbingrehab/static/js/main.e1686240.js",
+    "main.css": "/climbingrehab/static/css/main.37684872.css",
+    "main.js": "/climbingrehab/static/js/main.67c3978e.js",
     "static/media/aboutme.png": "/climbingrehab/static/media/aboutme.53b188a328e15a958658.png",
+    "static/media/bootstrap-icons.woff?": "/climbingrehab/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/climbingrehab/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/climbingrehab/index.html",
-    "main.54cd1282.css.map": "/climbingrehab/static/css/main.54cd1282.css.map",
-    "main.e1686240.js.map": "/climbingrehab/static/js/main.e1686240.js.map"
+    "main.37684872.css.map": "/climbingrehab/static/css/main.37684872.css.map",
+    "main.67c3978e.js.map": "/climbingrehab/static/js/main.67c3978e.js.map"
   },
   "entrypoints": [
-    "static/css/main.54cd1282.css",
-    "static/js/main.e1686240.js"
+    "static/css/main.37684872.css",
+    "static/js/main.67c3978e.js"
   ]
 }
